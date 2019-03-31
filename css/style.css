@@ -1,0 +1,58 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: #6200EE;
+	font-family: 'Open Sans', sans-serif;
+	color: #00BFFF;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: table;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: 300;
+}
+
+a {
+	color: #D2FF4D;
+	text-decoration: none;
+	font-weight: 300;
+}
+
+#img {
+	display:inline-block;
+	width:100px;
+	height:32px;
+	font-size: 0;
+	background: url("../img/button.png") no-repeat;
+	background-size: 100px 27.5px;
+	vertical-align:middle;
+}
+
+
+.container {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.content {
+	text-align: center;
+	display: inline-block;
+}
+
+.title {
+	font-size: 5em;
+}
+
+::selection {
+	background-color: rgba(0,0,0,0);
+}
+
+::-moz-selection {
+	background-color: rgba(0,0,0,0);
+}
